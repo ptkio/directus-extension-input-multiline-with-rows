@@ -45,6 +45,7 @@
 		"vue": "^3.4.19"
 	},
 	"dependencies": {
-		"node-sass": "^9.0.0"
+		"node-sass": "^9.0.0",
+		"rollup-plugin-inline-svg": "^3.0.3"
 	}
 }

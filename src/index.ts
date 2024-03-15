@@ -1,13 +1,15 @@
 import { defineInterface } from '@directus/extensions-sdk';
 import InterfaceComponent from './interface.vue';
-
+import PreviewSVG from './preview.svg';
 export default defineInterface({
 	id: 'ptkio-input-multiline',
-	name: '$t:interfaces.input-multiline.textarea',
+	name: 'Multiline (row option)',
 	icon: 'text_fields',
+	preview: PreviewSVG,
 	description: 'Default multiline with row number option.',
 	component: InterfaceComponent,
 	types: ['text'],
+	group: 'standard',
 	options: [
 		{
 			field: 'placeholder',
