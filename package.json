@@ -6,8 +6,19 @@
 	"keywords": [
 		"directus",
 		"directus-extension",
-		"directus-custom-interface"
+		"directus-custom-interface",
+		"multiline",
+		"textarea",
+		"rows"
 	],
+	"author": {
+		"email": "paul.tecchio@gmail.com",
+		"name": "ptkio"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ptkio/directus-extension-input-multiline-with-rows.git"
+	},
 	"type": "module",
 	"directus:extension": {
 		"type": "interface",
