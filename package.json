@@ -2,7 +2,8 @@
 	"name": "directus-extension-input-multiline-with-rows",
 	"description": "Default Directus multiline interface with row number option.",
 	"icon": "extension",
-	"version": "1.0.0",
+	"version": "1.0.1",
+	"license": "MIT",
 	"keywords": [
 		"directus",
 		"directus-extension",
